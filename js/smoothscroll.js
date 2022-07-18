@@ -1,24 +1,10 @@
-//https://gist.github.com/motorcitymobi/4597044
 
-/**
- * SmoothScroll
- * This helper script created by DWUser.com.  Copyright 2013 DWUser.com.
- * Dual-licensed under the GPL and MIT licenses.
- * All individual scripts remain property of their copyrighters.
- * Date: 10-Sep-2013
- * Version: 1.0.1
- */
 if (!window["jQuery"])
   alert(
     "The jQuery library must be included before the smoothscroll.js file.  The plugin will not work propery."
   );
 
-/**
- * Copyright (c) 2007 Ariel Flesler - aflesler ○ gmail • com | https://github.com/flesler
- * Licensed under MIT
- * @author Ariel Flesler
- * @version 2.1.2
- */
+
 (function(f) {
   "use strict";
   "function" === typeof define && define.amd
@@ -145,12 +131,7 @@ if (!window["jQuery"])
   return p;
 });
 
-/**
- * Copyright (c) 2007 Ariel Flesler - aflesler<a>gmail<d>com | https://github.com/flesler
- * Licensed under MIT
- * @author Ariel Flesler
- * @version 2.0.0
- */
+
 !(function(e) {
   "function" == typeof define && define.amd ? define(["jquery"], e) : e(jQuery);
 })(function(e) {
