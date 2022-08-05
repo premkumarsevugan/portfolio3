@@ -423,3 +423,7 @@ footer hr
         color: #D43F52;
     }
 /* end social icon */
+
+#member{
+    height: 500px !important;
+}
